@@ -1,0 +1,83 @@
+body {
+   
+    margin: 0;
+    background-image: url(./imagen/rainforest-4350845_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .game-container {
+    position: relative;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 800px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    background-color: rgba(95, 184, 196, 0.5);
+    
+  }
+  
+  .snake, .food {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .snake {
+    background-color: #33643b;
+    border-radius: 15px;
+    border: 3px solid #FF5733;
+  }
+
+  
+  .food {
+    background-image: url(./imagen/hamburger-31775_640.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  }
+
+  table{
+
+    width: 150px;
+    height: 60px;
+    margin-top: 15px;
+    margin-right: 2%;
+    margin-left: auto;
+    box-shadow: 10px 18px 15px rgb(22, 24, 24);
+
+    
+  }
+
+  td, td{
+
+    border-color: rgb(30, 3, 102, 0.45);
+    border-style: solid;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    background-color: #000;
+
+  }
+
+  .final{
+
+    width: 500px;
+    height: 150px;
+    background-color: rgba(170, 9, 9, 0.65);
+    z-index: 18;
+    text-align: center;
+    line-height: 150px;
+    font-size: 25px;
+    color: aliceblue;
+    position: absolute;
+    left: 37vw;
+    top: 42vh;
+    display: none;
+    
+  }
+
+  
+  
