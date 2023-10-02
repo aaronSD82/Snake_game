@@ -1,2 +1,2 @@
 # Snake_game
-Juego de snake en html, css, y javascript.
+Juego de snake con puntuación y dificultad realizado desde una base dada por chatGpt.
